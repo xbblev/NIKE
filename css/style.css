@@ -1,0 +1,167 @@
+@import url(fonts.css);
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    background: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: R4;
+    
+}
+/* body{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+} */
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+.header-nav{
+    background:  #322E41;
+    padding: 14px 0;
+}
+.header-nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav ul{
+    display: flex;
+ 
+}
+.header ul a{
+    color: white;
+    padding: 25.5px 18px;
+    transition: 400ms;
+}
+.header-nav-list a:hover{
+    color: #D47300;
+    background: white;
+}
+.header-content{
+    background: url(../img/imgbg.svg);
+ 
+    height: 700px;
+    background-size: cover;
+   
+    background-position:  center;
+}
+.header-content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.header-content h1{
+    font-size: 50px;
+    
+}
+.headewr-content p{
+    font-size: 18px;
+}
+.left{
+    
+    max-width: 540px;
+  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+    border-radius: 6px;
+    padding: 15px;
+
+
+}
+body{
+    background: #EBEBEB; ;
+}
+.main{
+    transform: translateY(-30px);
+}
+.main h2{
+    color: black;
+    font-size: 22px;
+}
+.main p{
+   color:  #9B9B9B;
+    
+}
+.main{
+    display: flex;
+    gap: 30px;
+}
+.right{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.right-card{
+    background: white;
+    width: 255px;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    
+}
+.footer{
+    background: #322E41;
+    padding: 40px 0;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 10px;
+}
+input,textarea{
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    resize: none;
+}
+button{
+    color: white;
+    background: #544294;
+    padding: 9px 0;
+    border-radius: 6px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul{
+    height: 105px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 282px;
+  
+}
+.hex{
+    padding-left: 182px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orange{
+    color: #D47300;
+}
+
+
+
